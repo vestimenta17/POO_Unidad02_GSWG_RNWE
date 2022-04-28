@@ -12,8 +12,12 @@ public class PrincipalComposicion {
     public static void main(String[] args){
         Revista r= new Revista("La semana del estudiante","AblaYala",
                 "45665412IAS");
-        Articulo a=new Articulo("");
+        r.crear("El agua es vida", 2785, "Si es vida........",0);
+        r.crear("El agua es vida", 2785, "Si es vida........",0);
+        r.crear("El agua es vida", 2785, "Si es vida........",0);
+
         System.out.println(r);
+       
     }
     
 }

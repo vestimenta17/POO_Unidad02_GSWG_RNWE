@@ -12,14 +12,14 @@ public class Articulo {
     private String nombre;
     private int numeroPalabras;
     private String resumen;
-    
 
     public Articulo(String nombre) {
         this.nombre = nombre;
     }
-
-    public Articulo(int numeroPalabras) {
+    public Articulo(String nombre, int numeroPalabras, String resumen) {
+        this.nombre = nombre;
         this.numeroPalabras = numeroPalabras;
+        this.resumen = resumen;
     }
 
     public String getNombre() {
@@ -44,6 +44,12 @@ public class Articulo {
 
     public void setResumen(String resumen) {
         this.resumen = resumen;
+    }
+
+    @Override
+    public String toString() {
+        return "Articulo{" + "nombre=" + nombre + ", numeroPalabras=" + 
+                numeroPalabras + ", resumen=" + resumen + '}';
     }
     
 }

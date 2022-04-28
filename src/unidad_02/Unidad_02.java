@@ -50,6 +50,7 @@ public class Unidad_02 {
         Universidad upm= new Universidad("Universidad Politécnica de Madrid");
         Universidad upv= new Universidad("Universidad Politécnica de Valencia");
         
+        System.out.println(ups.toString());
      
         
         
